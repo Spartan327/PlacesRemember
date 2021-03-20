@@ -3,7 +3,7 @@ web:
   environment:
     MYENV: env
   volumes:
-    - .:/code
+    - .:/placesremember
 web_migrate:
   extends:
     service: web

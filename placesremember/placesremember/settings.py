@@ -26,7 +26,7 @@ SECRET_KEY = '+^-wxcsi&0z+i&cdocd1brrof!1iz3)7a$adn+34=-aob-+45='
 DEBUG = True
 
 ALLOWED_HOSTS = ['0.0.0.0',
-                 'localhost',
+                 'localhost'
 ]
 
 
@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'remember',
+    'social_django',
 ]
 
 MIDDLEWARE = [
